@@ -1,4 +1,4 @@
-# aaronwht
+# aaronwht - my website
 This website uses React, Semantic UI, Node and MongoDB.
 
 The client-side JavaScript is React/Redux and can be deployed to AWS S3 or other static hosting environment.
