@@ -30,7 +30,7 @@ module.exports = (app) => {
   });
 
   app.post('/api/signin', Authentication.signin);
-  app.post('/api/signup', Authentication.signup);
+  // app.post('/api/signup', Authentication.signup); // Uncomment to create user accounts
   app.get('/api/homepage', Homepage.homepage);
   app.use(fileUpload());
 
@@ -38,7 +38,7 @@ module.exports = (app) => {
     let files = '';
 
     fs.readdirSync('/static').forEach((file) => {
-      files += `${ file }, `;
+      files += `${file}, `;
     });
 
     return res.send(files);
