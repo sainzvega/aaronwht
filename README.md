@@ -1,10 +1,11 @@
-# aaronwht - my website
-This website uses React, Semantic UI, Node and MongoDB.
+# https://www.AaronWht.com - This project powers my website.
+This website uses React/Redux, Semantic UI, Node and MongoDB.  I built it for me - you're free to use it as you'd like.
 
-The client-side JavaScript is React/Redux and can be deployed to AWS S3 or other static hosting environment.
-The server-side is Node and MongoDB and intended to be deplooyed to an AWS EC2 instance.
+The client-side JavaScript uses React/Redux and can be deployed to AWS S3 or another static hosting environment.
+The server-side uses Node and MongoDB and is intended to be deplooyed to an AWS EC2 instance.
 
 Configuration Files and Variables:
+
 Create a /client/.env file with the following:
 REACT_APP_API=https://your-api-end-point.com/
 REACT_APP_WEBSITE=https://www.your-website-address.com/
