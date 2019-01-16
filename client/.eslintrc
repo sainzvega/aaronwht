@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": false,
+        "codeFrame": false
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "16.0"
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-console": 1,
+        "no-debugger": 1,
+        "react/prop-types": 0,
+        "react/display-name": 0,
+        "node/no-unsupported-features/es-syntax": 0
+    }
+}

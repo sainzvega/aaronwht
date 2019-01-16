@@ -1,0 +1,83 @@
+.ui.menu {
+  margin: 0 0;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+h1.ui.header {
+  color: #ff6a00;
+}
+
+.Select-input > input {
+  border: 0 solid white !important;
+  padding: 8px 0 6px !important;
+}
+
+.selected-video {
+  color: #ff6a00;
+}
+
+.ui.inverted.pointing.menu .active.item:after {
+  background-color: white !important;
+}
+
+.ui.sub.header {
+  text-transform: none !important;
+}
+
+.page-header h1 {
+  font-size: 45px !important;
+  padding-top: 20px !important;
+  padding-bottom: 10px !important;
+}
+
+.page-header span {
+  font-size: 20px !important;
+  color: grey !important;
+}
+
+.article {
+  font-size: 18px !important;
+  line-height: 1.3 !important;
+}
+
+.article h1 {
+  font-size: 40px !important;
+  color: #ff6a00;
+}
+
+.article h2 {
+  font-size: 40px !important;
+}
+
+.article span {
+  color: grey !important;
+}
+
+.article .four.wide.column .ui.secondary.segment {
+  border: none !important;
+}
+
+.article .four.wide.column .ui.list .item {
+  font-size: 14px !important;
+}
+
+.ui.footer.segment {
+  margin-bottom: 0 !important;
+}
+
+input {
+  font-size: 18px !important;
+}
+
+.book-title {
+  font-size: 14px;
+}
+
+.book-author {
+  font-size: 15px;
+  color: #333;
+}

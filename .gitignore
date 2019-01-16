@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+build/
+.env
+*.orig
+.idea/
+.vscode/
+bundle.js
+npm-debug.log
+*.iml
+/.idea
